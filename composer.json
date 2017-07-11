@@ -1,50 +1,52 @@
 {
-	"name": "davidsolorzano20/davis",
-	"description": "Davis Web Development Framework",
-	"keywords": ["framework", "davis"],
-	"type": "project",
-	"license": "MIT",
-	"authors": [
-		{
-			"name": "Luis Solorzano",
-			"email": "luisnic20@gmail.com"
-		}
-	],
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/davidsolorzano20/davis.git"
-	},
-	"bugs": {
-		"url": "https://github.com/davidsolorzano20/davis/issues"
-	},
-	"homepage": "https://github.com/davidsolorzano20/davis#readme",
-	"minimum-stability": "dev",
-	"require": {
-		"php": ">=5.6",
-		"davidsolorzano20/core": "^2.0",
-		"symfony/YAML": "^3.2",
-		"twig/twig": "^2.1",
-		"illuminate/database": "^5.4"
-	},
-	"extra": {
-		"branch-alias": {
-			"dev-master": "2.0.1-dev"
-		}
-	},
-	"autoload": {
-		"psr-4": {
-			"App\\": "app",
-			"Develop\\": "develop",
-			"Davis\\": "vendor/davidsolorzano20",
-			"DavisPostInstall\\": "vendor/davidsolorzano20/core/postinstall"
-		}
-	},
-	"scripts": {
-		"post-create-project-cmd": [
-			"DavisPostInstall\\Installer::CreateProject"
-		],
-		"post-install-cmd": [
-			"DavisPostInstall\\Installer::PostInstall"
-		]
-	}
+  "name": "davidsolorzano20/davis",
+  "description": "Davis Web Development Framework",
+  "keywords": [
+    "framework",
+    "davis"
+  ],
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Luis Solorzano",
+      "email": "luisnic20@gmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidsolorzano20/davis.git"
+  },
+  "bugs": {
+    "url": "https://github.com/davidsolorzano20/davis/issues"
+  },
+  "homepage": "https://github.com/davidsolorzano20/davis#readme",
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.6",
+    "davidsolorzano20/core": "^2.0",
+    "symfony/YAML": "^3.2",
+    "twig/twig": "^2.1",
+    "illuminate/database": "^5.4"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "2.0.1-dev"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app",
+      "Develop\\": "develop",
+      "DavisPostInstall\\": "vendor/davidsolorzano20/core/postinstall"
+    }
+  },
+  "scripts": {
+    "post-create-project-cmd": [
+      "DavisPostInstall\\Installer::CreateProject"
+    ],
+    "post-install-cmd": [
+      "DavisPostInstall\\Installer::PostInstall"
+    ]
+  }
 }

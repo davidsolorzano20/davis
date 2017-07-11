@@ -1,6 +1,6 @@
 <?php
 
 $routing->get('/', 'IndexController@Index');
-$routing->get('/luis/{id}', 'IndexController@IndexPost');
-$routing->get('/user/login', 'IndexController@Login');
+$routing->get('/luis/{id}', 'IndexController@Parameters');
+$routing->post('/data/form', 'IndexController@Form');
 
