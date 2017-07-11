@@ -23,11 +23,11 @@
 ###Instalacion
 Descargar con Composer
  
-    composer create-project davidsolorzano20/davis davis
+	composer create-project davidsolorzano20/davis davis
     
 Descargar repositorio e instalar manual
 
-		composer install --prefer-dist
+	composer install --prefer-dist
 		
 		
 
