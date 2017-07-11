@@ -1,0 +1,27 @@
+/** My Mixins **/
+@mixin bg_color() {
+	background: $bg_color;
+	font-size: $text-size-body;
+}
+
+/** Mixins Parameters **/
+@mixin bg_color_parameters($background, $text-size) {
+	background: $background;
+	font-size: $text-size;
+}
+
+
+/** Call Mixins Example **/
+body {
+	@include bg_color();
+}
+
+/** Call Mixins Parameters default Example **/
+body, div {
+	@include bg_color_parameters(#f5f5f5, 12px);
+}
+
+/** Call Mixins Parameters variables Example **/
+body, div {
+	@include bg_color_parameters($bg_color, $text-size-body);
+}
