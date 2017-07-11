@@ -24,7 +24,7 @@
   "minimum-stability": "dev",
   "require": {
     "php": ">=5.6",
-    "davidsolorzano20/core": "^2.0",
+    "davidsolorzano20/core": "^2.0@dev",
     "symfony/YAML": "^3.2",
     "twig/twig": "^2.1",
     "illuminate/database": "^5.4"
@@ -37,8 +37,7 @@
   "autoload": {
     "psr-4": {
       "App\\": "app",
-      "Develop\\": "develop",
-      "DavisPostInstall\\": "vendor/davidsolorzano20/core/postinstall"
+      "Develop\\": "develop"
     }
   },
   "scripts": {
