@@ -16,7 +16,7 @@
 
 
 ### Requerimientos
-- PHP 5.6 o PHP 7.*
+- PHP 5.6 o PHP 7.x
 - Composer
 - NodeJS
 
