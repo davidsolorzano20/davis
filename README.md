@@ -1,7 +1,7 @@
 ## Davis Web Development Framework
  
-###Creado por Luis Solorzano
-###Davis es basado en:
+##Creado por Luis Solorzano
+##Davis es basado en:
 
 - PHP
 - MVC
@@ -15,12 +15,12 @@
 - YML
 
 
-###Requerimientos
+##Requerimientos
 - PHP 5.6 o PHP 7.*
 - Composer
 - NodeJS
 
-###Instalacion
+##Instalacion
 Descargar con Composer
  
 	composer create-project davidsolorzano20/davis davis
@@ -28,6 +28,7 @@ Descargar con Composer
 Descargar repositorio e instalar manual
 
 	composer install --prefer-dist
+	
 		
 		
 
