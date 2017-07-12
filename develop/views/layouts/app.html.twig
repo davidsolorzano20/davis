@@ -5,11 +5,17 @@
   <title>{% block title %}{% endblock %}Davis</title>
   <link rel="icon"  href="./app/core/theme/img/bolt.png">
   <link rel="stylesheet" type="text/css" href="{{ asset_davis('assets/css/style.css') }}">
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
   <style>
+    body, div {
+      background: white;
+    }
     .davis {
       font-size: 30vh;
       margin: 16% auto;
       display: block;
+      font-family: 'Raleway', sans-serif;
     }
     .social-network > a {
       margin: 10px;
@@ -18,14 +24,19 @@
     .social-network > a:hover {
       text-decoration: none;
     }
+    span.sp {
+      font-size: 5vh;
+      position: absolute;
+      margin-top: 3%;
+    }
   </style>
 
 </head>
 <body>
 
 <div class="container">
-  {% block content %}
-  {% endblock %}
+	{% block content %}
+	{% endblock %}
 </div>
 
 <script src="{{ asset_davis('assets/js/lib/jquery.min.js') }}"></script>
