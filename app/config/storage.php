@@ -6,22 +6,17 @@
 */
 /**
  * @params $storage;
-**/
-
-/*$storage = [
-	'folder' => 'folder_name',
-	'root' => 'storage/web'
-];*/
+ **/
 
 $storage = [
-	'drive' => [
-		'local' => [
-			'folder' => '',
-			'root' => 'storage/local'
-		],
-		'web' => [
-			'folder' => 'photos',
-			'root' => 'storage/web'
-		]
-	]
+  'drive' => [
+    'local' => [
+      'folder' => '',
+      'root' => 'storage/local'
+    ],
+    'web' => [
+      'folder' => '',
+      'root' => 'storage/web'
+    ]
+  ]
 ];
