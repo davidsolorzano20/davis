@@ -6,8 +6,7 @@
  * Time: 10:42 PM
  */
 require __DIR__ . '/vendor/autoload.php';
-use \Davis\http\thunder\route\router\Routing;
-$routing = new Routing();
-require __DIR__ . '/routes/web.php';
-$routing->start();
+\Davis\http\thunder\route\router\Routing::Load();
+\Davis\loader\Loader::Routing();
+\Davis\http\thunder\route\router\Routing::start();
 \Davis\loader\Loader::Load();

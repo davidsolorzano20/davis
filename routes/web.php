@@ -1,6 +1,9 @@
 <?php
+use \Davis\http\thunder\route\router\Routing;
+use \Davis\views\Views;
 
-$routing->get('/', 'IndexController@Index');
-$routing->get('/luis/{id}', 'IndexController@Parameters');
-$routing->post('/data/form', 'IndexController@Form');
+Routing::get('/', function () {
+	Views::go('welcome.davis');
+});
 
+//Routing::get('/', 'IndexController@Index');

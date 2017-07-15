@@ -27,7 +27,8 @@
     "davidsolorzano20/core": "^2.0@dev",
     "symfony/YAML": "^3.2",
     "twig/twig": "^2.1",
-    "illuminate/database": "^5.4"
+    "illuminate/database": "^5.4",
+    "mikehaertl/php-shellcommand": "dev-master"
   },
   "extra": {
     "branch-alias": {

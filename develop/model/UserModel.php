@@ -6,12 +6,12 @@
  * Time: 9:11 AM
  */
 
-namespace App\model;
+namespace Develop\model;
 
 
-use Davis\core\model\DavisModel;
+use Davis\model\DavisModel;
 
 class UserModel extends DavisModel {
-	protected  $table = "users";
+	protected  $table = '';
 
 }
