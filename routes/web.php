@@ -1,6 +1,7 @@
 <?php
+use \Davis\http\thunder\route\router\Routing;
 
-$routing->get('/', 'IndexController@Index');
-$routing->get('/luis/{id}', 'IndexController@Parameters');
-$routing->post('/data/form', 'IndexController@Form');
-
+Routing::get('/', 'IndexController@Index');
+Routing::post('/data/form', 'IndexController@Form');
+Routing::put('/put/{id}', 'IndexController@Parameters2');
+Routing::delete('/delete/[id]', 'IndexController@Parameters');

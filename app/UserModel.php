@@ -9,7 +9,7 @@
 namespace App\model;
 
 
-use Davis\core\model\DavisModel;
+use Davis\model\DavisModel;
 
 class UserModel extends DavisModel {
 	protected  $table = "users";
