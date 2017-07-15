@@ -12,5 +12,4 @@ use Davis\model\DavisModel;
 
 class UserModel extends DavisModel {
 	protected  $table = '';
-
 }

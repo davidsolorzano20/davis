@@ -28,6 +28,11 @@
           <i class="fa fa-drupal fa-2x" aria-hidden="true"></i>
         </a>
       </div>
+
+      <form method="post" action="{{ route('/data/form') }}" enctype="multipart/form-data">
+        <input name="name" type="file">
+        <input type="submit" value="Subir">
+      </form>
     </div>
   </div>
 {% endblock %}
