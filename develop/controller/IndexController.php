@@ -17,5 +17,4 @@ class IndexController extends DavisController {
 		return Views::go('welcome.davis');
 	}
 
-
 }

@@ -8,7 +8,6 @@
 
 namespace Develop\model;
 
-
 use Davis\model\DavisModel;
 
 class UserModel extends DavisModel {
